@@ -138,7 +138,7 @@ _gaq.push(['_trackPageview']);
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <div class="welcome-msg">
 <p class="hello"><strong>
- 
+95793644664511e289489848e167c3b7 
     <script type="text/javascript">
 
     // Load the Visualization API and the piechart package.
@@ -218,7 +218,7 @@ _gaq.push(['_trackPageview']);
                  </td>
 </tr></tbody>
 </table>
- 
+231433b0a84411e2af099848e167c3b7 
     <script type="text/javascript">
 
     // Load the Visualization API and the piechart package.
@@ -298,7 +298,7 @@ _gaq.push(['_trackPageview']);
                  </td>
 </tr></tbody>
 </table>
- 
+8048a0f4dd6211e284db9848e1660ab3 
     <script type="text/javascript">
 
     // Load the Visualization API and the piechart package.
@@ -378,7 +378,7 @@ _gaq.push(['_trackPageview']);
                  </td>
 </tr></tbody>
 </table>
- 
+73ec11e6ddb311e281d69848e1660ab3 
     <script type="text/javascript">
 
     // Load the Visualization API and the piechart package.
@@ -458,7 +458,7 @@ _gaq.push(['_trackPageview']);
                  </td>
 </tr></tbody>
 </table>
- 
+1d86da22dd6611e2abcf9848e1660ab3 
     <script type="text/javascript">
 
     // Load the Visualization API and the piechart package.
@@ -538,7 +538,7 @@ _gaq.push(['_trackPageview']);
                  </td>
 </tr></tbody>
 </table>
- 
+64414e00dd9011e28ce49848e1660ab3 
     <script type="text/javascript">
 
     // Load the Visualization API and the piechart package.
@@ -618,7 +618,7 @@ _gaq.push(['_trackPageview']);
                  </td>
 </tr></tbody>
 </table>
- 
+f4052cfae13c11e299369848e167c3b7 
     <script type="text/javascript">
 
     // Load the Visualization API and the piechart package.
@@ -698,7 +698,87 @@ _gaq.push(['_trackPageview']);
                  </td>
 </tr></tbody>
 </table>
+b700837ae15711e28acd9848e167c3b7 
+    <script type="text/javascript">
+
+    // Load the Visualization API and the piechart package.
+    google.load('visualization', '1', {'packages':['corechart']});
+
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      // Create our data table out of JSON data loaded from server.
+      var data = new google.visualization.DataTable({"cols":[{"label":"Date","type":"string"},{"label":"Percentage","type":"number"}],"rows":[]});
+      var options = {
+           title: 'Date vs Percentage',
+          is3D: 'true',
+          width: 800,
+          height: 400,
+		   animation:{  duration: 1000, easing: 'out'}
+        };
+      // Instantiate and draw our chart, passing in some options.
+      // Do not forget to check your div ID
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+	 // setInterval(drawChart, 500 );
+    }
+    </script>
+<div id="chart_div"></div>
+
+<div class="dashcontainer">
+<h3 class="monitorsummary">Monitor Summary</h3>
+
+<table   style="width:54%;margin:40px 0px 0px 50px;height:135px;padding:10px;line-height:50px;text-align:right;font-size:12px;font-family:Arial;border-collapse:collapse;border-bottom:1px solid #d9d5be" id="my-orders-table">
  
+<thead style="font-size:12px;color:#444444;vertical-align:middle;border-bottom:2px solid #444444">
+            <tr>
+                <th>Sno.</th>
+                <th>Date</th>
+                <th>Status</th>
+		  <th>Last Error At</th>
+		  <th>Avg Up Time Week(%)</th>
+		  <th>Avg Load Time Day (ms)</th>
+             <!--   <th>Sample time</span></th>
+                <th>Status</th>
+                <th>&nbsp;</th>-->
+            </tr>
+        </thead>
+        <tbody>
+                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>1</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>2</td>
+                    <td>td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>3</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr></tbody>
+</table>
+b3731a4ee13211e2aa5b9848e167c3b7 
     <script type="text/javascript">
 
     // Load the Visualization API and the piechart package.
@@ -778,7 +858,7 @@ _gaq.push(['_trackPageview']);
                  </td>
 </tr></tbody>
 </table>
- 
+7d0ed16ce09e11e296339848e1660ab3 
     <script type="text/javascript">
 
     // Load the Visualization API and the piechart package.
@@ -858,7 +938,7 @@ _gaq.push(['_trackPageview']);
                  </td>
 </tr></tbody>
 </table>
- 
+68453e4ae0c311e2bcdc9848e167c3b7 
     <script type="text/javascript">
 
     // Load the Visualization API and the piechart package.
@@ -938,7 +1018,7 @@ _gaq.push(['_trackPageview']);
                  </td>
 </tr></tbody>
 </table>
- 
+ffe257d2e3b711e295b59848e167c3b7 
     <script type="text/javascript">
 
     // Load the Visualization API and the piechart package.
@@ -1018,7 +1098,7 @@ _gaq.push(['_trackPageview']);
                  </td>
 </tr></tbody>
 </table>
- 
+129fb08ce3b711e2bb439848e167c3b7 
     <script type="text/javascript">
 
     // Load the Visualization API and the piechart package.
@@ -1098,7 +1178,7 @@ _gaq.push(['_trackPageview']);
                  </td>
 </tr></tbody>
 </table>
- 
+4375929ce3b911e2ab229848e167c3b7 
     <script type="text/javascript">
 
     // Load the Visualization API and the piechart package.
@@ -1178,7 +1258,7 @@ _gaq.push(['_trackPageview']);
                  </td>
 </tr></tbody>
 </table>
- 
+a9fa7da8e3b811e292cd9848e167c3b7 
     <script type="text/javascript">
 
     // Load the Visualization API and the piechart package.
@@ -1258,7 +1338,7 @@ _gaq.push(['_trackPageview']);
                  </td>
 </tr></tbody>
 </table>
- 
+0aa06086e55411e2812e9848e1660ab3 
     <script type="text/javascript">
 
     // Load the Visualization API and the piechart package.
@@ -1338,7 +1418,7 @@ _gaq.push(['_trackPageview']);
                  </td>
 </tr></tbody>
 </table>
- 
+77226e9ae54811e2aecd9848e1660ab3 
     <script type="text/javascript">
 
     // Load the Visualization API and the piechart package.
@@ -1418,7 +1498,7 @@ _gaq.push(['_trackPageview']);
                  </td>
 </tr></tbody>
 </table>
- 
+8077f590e54911e29c419848e1660ab3 
     <script type="text/javascript">
 
     // Load the Visualization API and the piechart package.
@@ -1498,87 +1578,7 @@ _gaq.push(['_trackPageview']);
                  </td>
 </tr></tbody>
 </table>
- 
-    <script type="text/javascript">
-
-    // Load the Visualization API and the piechart package.
-    google.load('visualization', '1', {'packages':['corechart']});
-
-    // Set a callback to run when the Google Visualization API is loaded.
-    google.setOnLoadCallback(drawChart);
-
-    function drawChart() {
-
-      // Create our data table out of JSON data loaded from server.
-      var data = new google.visualization.DataTable({"cols":[{"label":"Date","type":"string"},{"label":"Percentage","type":"number"}],"rows":[]});
-      var options = {
-           title: 'Date vs Percentage',
-          is3D: 'true',
-          width: 800,
-          height: 400,
-		   animation:{  duration: 1000, easing: 'out'}
-        };
-      // Instantiate and draw our chart, passing in some options.
-      // Do not forget to check your div ID
-      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
-      chart.draw(data, options);
-	 // setInterval(drawChart, 500 );
-    }
-    </script>
-<div id="chart_div"></div>
-
-<div class="dashcontainer">
-<h3 class="monitorsummary">Monitor Summary</h3>
-
-<table   style="width:54%;margin:40px 0px 0px 50px;height:135px;padding:10px;line-height:50px;text-align:right;font-size:12px;font-family:Arial;border-collapse:collapse;border-bottom:1px solid #d9d5be" id="my-orders-table">
- 
-<thead style="font-size:12px;color:#444444;vertical-align:middle;border-bottom:2px solid #444444">
-            <tr>
-                <th>Sno.</th>
-                <th>Date</th>
-                <th>Status</th>
-		  <th>Last Error At</th>
-		  <th>Avg Up Time Week(%)</th>
-		  <th>Avg Load Time Day (ms)</th>
-             <!--   <th>Sample time</span></th>
-                <th>Status</th>
-                <th>&nbsp;</th>-->
-            </tr>
-        </thead>
-        <tbody>
-                           <tr style="border-bottom:1px solid #d9d5be">
-                    <td>1</td>
-                    <td></td>
-                  <td><div class="data-status off"></div>                 </td>
-                  <td>                 </td>
-                  <td>                 </td>
-                  <td>                 </td>
-                  <td>
-
-                 </td>
-</tr>                           <tr style="border-bottom:1px solid #d9d5be">
-                    <td>2</td>
-                    <td></td>
-                  <td><div class="data-status off"></div>                 </td>
-                  <td>                 </td>
-                  <td>                 </td>
-                  <td>                 </td>
-                  <td>
-
-                 </td>
-</tr>                           <tr style="border-bottom:1px solid #d9d5be">
-                    <td>3</td>
-                    <td></td>
-                  <td><div class="data-status off"></div>                 </td>
-                  <td>                 </td>
-                  <td>                 </td>
-                  <td>                 </td>
-                  <td>
-
-                 </td>
-</tr></tbody>
-</table>
- 
+d64b3f72e55311e2b1ff9848e1660ab3 
     <script type="text/javascript">
 
     // Load the Visualization API and the piechart package.
