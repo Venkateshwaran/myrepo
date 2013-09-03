@@ -1,0 +1,1907 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>My Account</title>
+<meta name="description" content="Default Description" />
+<meta name="keywords" content="Magento, Varien, E-commerce" />
+<meta name="robots" content="INDEX,FOLLOW" />
+<link rel="icon" href="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/media/favicon/default/Desktop1.png" type="image/x-icon" />
+<link rel="shortcut icon" href="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/media/favicon/default/Desktop1.png" type="image/x-icon" />
+<!--[if lt IE 7]>
+<script type="text/javascript">
+//<![CDATA[
+    var BLANK_URL = 'http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/js/blank.html';
+    var BLANK_IMG = 'http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/js/spacer.gif';
+//]]>
+</script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/skin/frontend/default/f001/css/styles.css" media="all" />
+<link rel="stylesheet" type="text/css" href="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/skin/frontend/default/f001/css/custom.css" media="all" />
+<link rel="stylesheet" type="text/css" href="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/skin/frontend/base/default/css/widgets.css" media="all" />
+<link rel="stylesheet" type="text/css" href="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/skin/frontend/default/default/css/print.css" media="print" />
+<script type="text/javascript" src="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/js/prototype/prototype.js"></script>
+<script type="text/javascript" src="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/js/lib/ccard.js"></script>
+<script type="text/javascript" src="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/js/prototype/validation.js"></script>
+<script type="text/javascript" src="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/js/scriptaculous/builder.js"></script>
+<script type="text/javascript" src="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/js/scriptaculous/effects.js"></script>
+<script type="text/javascript" src="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/js/scriptaculous/dragdrop.js"></script>
+<script type="text/javascript" src="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/js/scriptaculous/controls.js"></script>
+<script type="text/javascript" src="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/js/scriptaculous/slider.js"></script>
+<script type="text/javascript" src="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/js/varien/js.js"></script>
+<script type="text/javascript" src="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/js/varien/form.js"></script>
+<script type="text/javascript" src="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/js/varien/menu.js"></script>
+<script type="text/javascript" src="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/js/mage/translate.js"></script>
+<script type="text/javascript" src="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/js/mage/cookies.js"></script>
+<script type="text/javascript" src="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/js/varien/weee.js"></script>
+<!--[if lt IE 8]>
+<link rel="stylesheet" type="text/css" href="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/skin/frontend/default/f001/css/styles-ie.css" media="all" />
+<![endif]-->
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/skin/frontend/default/f001/css/ie8.css" media="all" />
+<![endif]-->
+<!--[if lt IE 7]>
+<script type="text/javascript" src="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/js/lib/ds-sleight.js"></script>
+<script type="text/javascript" src="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/skin/frontend/base/default/js/ie6.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+//<![CDATA[
+Mage.Cookies.path     = '/magento';
+Mage.Cookies.domain   = '.ec2-54-214-146-9.us-west-2.compute.amazonaws.com';
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+optionalZipCountries = ["HK","IE","MO","PA"];
+//]]>
+</script>
+<script type="text/javascript">//<![CDATA[
+        var Translator = new Translate([]);
+        //]]></script><!-- Google Analytics Content Experiment code -->
+<script>function utmx_section(){}function utmx(){}(function(){var
+k='72873647-0',d=document,l=d.location,c=d.cookie;
+if(l.search.indexOf('utm_expid='+k)>0)return;
+function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
+indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
+length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
+valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
+</script><script>utmx('url','A/B');</script>
+<!-- End of Google Analytics Content Experiment code -->
+</head>
+<body class=" customer-account-index">
+
+
+<!-- BEGIN GOOGLE ANALYTICS CODEs -->
+<script type="text/javascript">
+//<![CDATA[
+    var _gaq = _gaq || [];
+    
+_gaq.push(['_setAccount', 'UA-41253689-1']);
+_gaq.push(['_trackPageview']);
+    
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+//]]>
+</script>
+<!-- END GOOGLE ANALYTICS CODE -->
+
+
+<div class="wrapper">
+        <noscript>
+        <div class="global-site-notice noscript">
+            <div class="notice-inner">
+                <p>
+                    <strong>JavaScript seems to be disabled in your browser.</strong><br />
+                    You must have JavaScript enabled in your browser to utilize the functionality of this website.                </p>
+            </div>
+        </div>
+    </noscript>
+    <div class="page">
+        <div class="header-container">
+    <div class="header">
+                <a href="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/index.php/" title="Testsitedaily" class="logo"><strong>Testsitedaily</strong><img src="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/skin/frontend/default/f001/images/logo.png" alt="Testsitedaily" /></a>
+                <!--<h5 class="slogan">best free magento theme</h5> -->
+        <p class="no-display"><a href="#main"><strong>Skip to Main Content &raquo;</strong></a></p>
+                <div class="quick-access">
+            <p class="welcome-msg"> </p>
+            <div class="shop-access">
+            <ul class="links">
+                        <li class="first" ><a href="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/index.php/overview/" title="Overview" >Overview</a></li>
+                                <li class="toplinkcontact"><a href="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/index.php/contactus/" title="Contact Us" >Contact us</a></li>
+                                <li ><a href="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/index.php/customer/account/" title="My Account" class="toplinkmyaccount">My Account</a></li>
+                                <li class=" last" ><a href="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/index.php/customer/account/logout/" title="Log out" class="toplinklogout">Log Out</a></li>
+            </ul>
+        </div>
+    </div>
+                </div>
+</div>
+        <div class="main-container col2-left-layout">
+            <div class="main">
+                                <div class="col-main">
+                                        <div class="my-account"><div class="dashboard">
+    <div class="page-title">
+        <h1 class="dash">Dashboard</h1>
+    </div>
+        <!--Load the Ajax API-->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<div class="welcome-msg">
+<p class="hello"><strong>
+ 
+    <script type="text/javascript">
+
+    // Load the Visualization API and the piechart package.
+    google.load('visualization', '1', {'packages':['corechart']});
+
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      // Create our data table out of JSON data loaded from server.
+      var data = new google.visualization.DataTable({"cols":[{"label":"Date","type":"string"},{"label":"Percentage","type":"number"}],"rows":[{"c":[{"v":"2013-02-22 "},{"v":85}]},{"c":[{"v":"2013-02-22 "},{"v":99}]},{"c":[{"v":"2013-02-22 "},{"v":100}]},{"c":[{"v":"2013-02-22 "},{"v":93}]},{"c":[{"v":"2013-02-23 "},{"v":97}]}]});
+      var options = {
+           title: 'Date vs Percentage',
+          is3D: 'true',
+          width: 800,
+          height: 400,
+		   animation:{  duration: 1000, easing: 'out'}
+        };
+      // Instantiate and draw our chart, passing in some options.
+      // Do not forget to check your div ID
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+	 // setInterval(drawChart, 500 );
+    }
+    </script>
+<div id="chart_div"></div>
+
+<div class="dashcontainer">
+<h3 class="monitorsummary">Monitor Summary</h3>
+
+<table   style="width:54%;margin:40px 0px 0px 50px;height:135px;padding:10px;line-height:50px;text-align:right;font-size:12px;font-family:Arial;border-collapse:collapse;border-bottom:1px solid #d9d5be" id="my-orders-table">
+ 
+<thead style="font-size:12px;color:#444444;vertical-align:middle;border-bottom:2px solid #444444">
+            <tr>
+                <th>Sno.</th>
+                <th>Date</th>
+                <th>Status</th>
+		  <th>Last Error At</th>
+		  <th>Avg Up Time Week(%)</th>
+		  <th>Avg Load Time Day (ms)</th>
+             <!--   <th>Sample time</span></th>
+                <th>Status</th>
+                <th>&nbsp;</th>-->
+            </tr>
+        </thead>
+        <tbody>
+                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>1</td>
+                    <td>2013-02-23</td>
+                  <td><div class="data-status active"></div>                 </td>
+                  <td>0000-00-00                 </td>
+                  <td>97                 </td>
+                  <td>42419                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>2</td>
+                    <td>2013-02-22</td>
+                  <td><div class="data-status active"></div>                 </td>
+                  <td>0000-00-00                 </td>
+                  <td>93                 </td>
+                  <td>42567                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>3</td>
+                    <td>2013-02-22</td>
+                  <td><div class="data-status active"></div>                 </td>
+                  <td>0000-00-00                 </td>
+                  <td>100                 </td>
+                  <td>42567                 </td>
+                  <td>
+
+                 </td>
+</tr></tbody>
+</table>
+ 
+    <script type="text/javascript">
+
+    // Load the Visualization API and the piechart package.
+    google.load('visualization', '1', {'packages':['corechart']});
+
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      // Create our data table out of JSON data loaded from server.
+      var data = new google.visualization.DataTable({"cols":[{"label":"Date","type":"string"},{"label":"Percentage","type":"number"}],"rows":[]});
+      var options = {
+           title: 'Date vs Percentage',
+          is3D: 'true',
+          width: 800,
+          height: 400,
+		   animation:{  duration: 1000, easing: 'out'}
+        };
+      // Instantiate and draw our chart, passing in some options.
+      // Do not forget to check your div ID
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+	 // setInterval(drawChart, 500 );
+    }
+    </script>
+<div id="chart_div"></div>
+
+<div class="dashcontainer">
+<h3 class="monitorsummary">Monitor Summary</h3>
+
+<table   style="width:54%;margin:40px 0px 0px 50px;height:135px;padding:10px;line-height:50px;text-align:right;font-size:12px;font-family:Arial;border-collapse:collapse;border-bottom:1px solid #d9d5be" id="my-orders-table">
+ 
+<thead style="font-size:12px;color:#444444;vertical-align:middle;border-bottom:2px solid #444444">
+            <tr>
+                <th>Sno.</th>
+                <th>Date</th>
+                <th>Status</th>
+		  <th>Last Error At</th>
+		  <th>Avg Up Time Week(%)</th>
+		  <th>Avg Load Time Day (ms)</th>
+             <!--   <th>Sample time</span></th>
+                <th>Status</th>
+                <th>&nbsp;</th>-->
+            </tr>
+        </thead>
+        <tbody>
+                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>1</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>2</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>3</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr></tbody>
+</table>
+ 
+    <script type="text/javascript">
+
+    // Load the Visualization API and the piechart package.
+    google.load('visualization', '1', {'packages':['corechart']});
+
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      // Create our data table out of JSON data loaded from server.
+      var data = new google.visualization.DataTable({"cols":[{"label":"Date","type":"string"},{"label":"Percentage","type":"number"}],"rows":[]});
+      var options = {
+           title: 'Date vs Percentage',
+          is3D: 'true',
+          width: 800,
+          height: 400,
+		   animation:{  duration: 1000, easing: 'out'}
+        };
+      // Instantiate and draw our chart, passing in some options.
+      // Do not forget to check your div ID
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+	 // setInterval(drawChart, 500 );
+    }
+    </script>
+<div id="chart_div"></div>
+
+<div class="dashcontainer">
+<h3 class="monitorsummary">Monitor Summary</h3>
+
+<table   style="width:54%;margin:40px 0px 0px 50px;height:135px;padding:10px;line-height:50px;text-align:right;font-size:12px;font-family:Arial;border-collapse:collapse;border-bottom:1px solid #d9d5be" id="my-orders-table">
+ 
+<thead style="font-size:12px;color:#444444;vertical-align:middle;border-bottom:2px solid #444444">
+            <tr>
+                <th>Sno.</th>
+                <th>Date</th>
+                <th>Status</th>
+		  <th>Last Error At</th>
+		  <th>Avg Up Time Week(%)</th>
+		  <th>Avg Load Time Day (ms)</th>
+             <!--   <th>Sample time</span></th>
+                <th>Status</th>
+                <th>&nbsp;</th>-->
+            </tr>
+        </thead>
+        <tbody>
+                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>1</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>2</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>3</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr></tbody>
+</table>
+ 
+    <script type="text/javascript">
+
+    // Load the Visualization API and the piechart package.
+    google.load('visualization', '1', {'packages':['corechart']});
+
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      // Create our data table out of JSON data loaded from server.
+      var data = new google.visualization.DataTable({"cols":[{"label":"Date","type":"string"},{"label":"Percentage","type":"number"}],"rows":[]});
+      var options = {
+           title: 'Date vs Percentage',
+          is3D: 'true',
+          width: 800,
+          height: 400,
+		   animation:{  duration: 1000, easing: 'out'}
+        };
+      // Instantiate and draw our chart, passing in some options.
+      // Do not forget to check your div ID
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+	 // setInterval(drawChart, 500 );
+    }
+    </script>
+<div id="chart_div"></div>
+
+<div class="dashcontainer">
+<h3 class="monitorsummary">Monitor Summary</h3>
+
+<table   style="width:54%;margin:40px 0px 0px 50px;height:135px;padding:10px;line-height:50px;text-align:right;font-size:12px;font-family:Arial;border-collapse:collapse;border-bottom:1px solid #d9d5be" id="my-orders-table">
+ 
+<thead style="font-size:12px;color:#444444;vertical-align:middle;border-bottom:2px solid #444444">
+            <tr>
+                <th>Sno.</th>
+                <th>Date</th>
+                <th>Status</th>
+		  <th>Last Error At</th>
+		  <th>Avg Up Time Week(%)</th>
+		  <th>Avg Load Time Day (ms)</th>
+             <!--   <th>Sample time</span></th>
+                <th>Status</th>
+                <th>&nbsp;</th>-->
+            </tr>
+        </thead>
+        <tbody>
+                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>1</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>2</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>3</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr></tbody>
+</table>
+ 
+    <script type="text/javascript">
+
+    // Load the Visualization API and the piechart package.
+    google.load('visualization', '1', {'packages':['corechart']});
+
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      // Create our data table out of JSON data loaded from server.
+      var data = new google.visualization.DataTable({"cols":[{"label":"Date","type":"string"},{"label":"Percentage","type":"number"}],"rows":[]});
+      var options = {
+           title: 'Date vs Percentage',
+          is3D: 'true',
+          width: 800,
+          height: 400,
+		   animation:{  duration: 1000, easing: 'out'}
+        };
+      // Instantiate and draw our chart, passing in some options.
+      // Do not forget to check your div ID
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+	 // setInterval(drawChart, 500 );
+    }
+    </script>
+<div id="chart_div"></div>
+
+<div class="dashcontainer">
+<h3 class="monitorsummary">Monitor Summary</h3>
+
+<table   style="width:54%;margin:40px 0px 0px 50px;height:135px;padding:10px;line-height:50px;text-align:right;font-size:12px;font-family:Arial;border-collapse:collapse;border-bottom:1px solid #d9d5be" id="my-orders-table">
+ 
+<thead style="font-size:12px;color:#444444;vertical-align:middle;border-bottom:2px solid #444444">
+            <tr>
+                <th>Sno.</th>
+                <th>Date</th>
+                <th>Status</th>
+		  <th>Last Error At</th>
+		  <th>Avg Up Time Week(%)</th>
+		  <th>Avg Load Time Day (ms)</th>
+             <!--   <th>Sample time</span></th>
+                <th>Status</th>
+                <th>&nbsp;</th>-->
+            </tr>
+        </thead>
+        <tbody>
+                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>1</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>2</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>3</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr></tbody>
+</table>
+ 
+    <script type="text/javascript">
+
+    // Load the Visualization API and the piechart package.
+    google.load('visualization', '1', {'packages':['corechart']});
+
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      // Create our data table out of JSON data loaded from server.
+      var data = new google.visualization.DataTable({"cols":[{"label":"Date","type":"string"},{"label":"Percentage","type":"number"}],"rows":[]});
+      var options = {
+           title: 'Date vs Percentage',
+          is3D: 'true',
+          width: 800,
+          height: 400,
+		   animation:{  duration: 1000, easing: 'out'}
+        };
+      // Instantiate and draw our chart, passing in some options.
+      // Do not forget to check your div ID
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+	 // setInterval(drawChart, 500 );
+    }
+    </script>
+<div id="chart_div"></div>
+
+<div class="dashcontainer">
+<h3 class="monitorsummary">Monitor Summary</h3>
+
+<table   style="width:54%;margin:40px 0px 0px 50px;height:135px;padding:10px;line-height:50px;text-align:right;font-size:12px;font-family:Arial;border-collapse:collapse;border-bottom:1px solid #d9d5be" id="my-orders-table">
+ 
+<thead style="font-size:12px;color:#444444;vertical-align:middle;border-bottom:2px solid #444444">
+            <tr>
+                <th>Sno.</th>
+                <th>Date</th>
+                <th>Status</th>
+		  <th>Last Error At</th>
+		  <th>Avg Up Time Week(%)</th>
+		  <th>Avg Load Time Day (ms)</th>
+             <!--   <th>Sample time</span></th>
+                <th>Status</th>
+                <th>&nbsp;</th>-->
+            </tr>
+        </thead>
+        <tbody>
+                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>1</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>2</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>3</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr></tbody>
+</table>
+ 
+    <script type="text/javascript">
+
+    // Load the Visualization API and the piechart package.
+    google.load('visualization', '1', {'packages':['corechart']});
+
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      // Create our data table out of JSON data loaded from server.
+      var data = new google.visualization.DataTable({"cols":[{"label":"Date","type":"string"},{"label":"Percentage","type":"number"}],"rows":[]});
+      var options = {
+           title: 'Date vs Percentage',
+          is3D: 'true',
+          width: 800,
+          height: 400,
+		   animation:{  duration: 1000, easing: 'out'}
+        };
+      // Instantiate and draw our chart, passing in some options.
+      // Do not forget to check your div ID
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+	 // setInterval(drawChart, 500 );
+    }
+    </script>
+<div id="chart_div"></div>
+
+<div class="dashcontainer">
+<h3 class="monitorsummary">Monitor Summary</h3>
+
+<table   style="width:54%;margin:40px 0px 0px 50px;height:135px;padding:10px;line-height:50px;text-align:right;font-size:12px;font-family:Arial;border-collapse:collapse;border-bottom:1px solid #d9d5be" id="my-orders-table">
+ 
+<thead style="font-size:12px;color:#444444;vertical-align:middle;border-bottom:2px solid #444444">
+            <tr>
+                <th>Sno.</th>
+                <th>Date</th>
+                <th>Status</th>
+		  <th>Last Error At</th>
+		  <th>Avg Up Time Week(%)</th>
+		  <th>Avg Load Time Day (ms)</th>
+             <!--   <th>Sample time</span></th>
+                <th>Status</th>
+                <th>&nbsp;</th>-->
+            </tr>
+        </thead>
+        <tbody>
+                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>1</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>2</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>3</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr></tbody>
+</table>
+ 
+    <script type="text/javascript">
+
+    // Load the Visualization API and the piechart package.
+    google.load('visualization', '1', {'packages':['corechart']});
+
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      // Create our data table out of JSON data loaded from server.
+      var data = new google.visualization.DataTable({"cols":[{"label":"Date","type":"string"},{"label":"Percentage","type":"number"}],"rows":[]});
+      var options = {
+           title: 'Date vs Percentage',
+          is3D: 'true',
+          width: 800,
+          height: 400,
+		   animation:{  duration: 1000, easing: 'out'}
+        };
+      // Instantiate and draw our chart, passing in some options.
+      // Do not forget to check your div ID
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+	 // setInterval(drawChart, 500 );
+    }
+    </script>
+<div id="chart_div"></div>
+
+<div class="dashcontainer">
+<h3 class="monitorsummary">Monitor Summary</h3>
+
+<table   style="width:54%;margin:40px 0px 0px 50px;height:135px;padding:10px;line-height:50px;text-align:right;font-size:12px;font-family:Arial;border-collapse:collapse;border-bottom:1px solid #d9d5be" id="my-orders-table">
+ 
+<thead style="font-size:12px;color:#444444;vertical-align:middle;border-bottom:2px solid #444444">
+            <tr>
+                <th>Sno.</th>
+                <th>Date</th>
+                <th>Status</th>
+		  <th>Last Error At</th>
+		  <th>Avg Up Time Week(%)</th>
+		  <th>Avg Load Time Day (ms)</th>
+             <!--   <th>Sample time</span></th>
+                <th>Status</th>
+                <th>&nbsp;</th>-->
+            </tr>
+        </thead>
+        <tbody>
+                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>1</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>2</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>3</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr></tbody>
+</table>
+ 
+    <script type="text/javascript">
+
+    // Load the Visualization API and the piechart package.
+    google.load('visualization', '1', {'packages':['corechart']});
+
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      // Create our data table out of JSON data loaded from server.
+      var data = new google.visualization.DataTable({"cols":[{"label":"Date","type":"string"},{"label":"Percentage","type":"number"}],"rows":[]});
+      var options = {
+           title: 'Date vs Percentage',
+          is3D: 'true',
+          width: 800,
+          height: 400,
+		   animation:{  duration: 1000, easing: 'out'}
+        };
+      // Instantiate and draw our chart, passing in some options.
+      // Do not forget to check your div ID
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+	 // setInterval(drawChart, 500 );
+    }
+    </script>
+<div id="chart_div"></div>
+
+<div class="dashcontainer">
+<h3 class="monitorsummary">Monitor Summary</h3>
+
+<table   style="width:54%;margin:40px 0px 0px 50px;height:135px;padding:10px;line-height:50px;text-align:right;font-size:12px;font-family:Arial;border-collapse:collapse;border-bottom:1px solid #d9d5be" id="my-orders-table">
+ 
+<thead style="font-size:12px;color:#444444;vertical-align:middle;border-bottom:2px solid #444444">
+            <tr>
+                <th>Sno.</th>
+                <th>Date</th>
+                <th>Status</th>
+		  <th>Last Error At</th>
+		  <th>Avg Up Time Week(%)</th>
+		  <th>Avg Load Time Day (ms)</th>
+             <!--   <th>Sample time</span></th>
+                <th>Status</th>
+                <th>&nbsp;</th>-->
+            </tr>
+        </thead>
+        <tbody>
+                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>1</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>2</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>3</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr></tbody>
+</table>
+ 
+    <script type="text/javascript">
+
+    // Load the Visualization API and the piechart package.
+    google.load('visualization', '1', {'packages':['corechart']});
+
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      // Create our data table out of JSON data loaded from server.
+      var data = new google.visualization.DataTable({"cols":[{"label":"Date","type":"string"},{"label":"Percentage","type":"number"}],"rows":[]});
+      var options = {
+           title: 'Date vs Percentage',
+          is3D: 'true',
+          width: 800,
+          height: 400,
+		   animation:{  duration: 1000, easing: 'out'}
+        };
+      // Instantiate and draw our chart, passing in some options.
+      // Do not forget to check your div ID
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+	 // setInterval(drawChart, 500 );
+    }
+    </script>
+<div id="chart_div"></div>
+
+<div class="dashcontainer">
+<h3 class="monitorsummary">Monitor Summary</h3>
+
+<table   style="width:54%;margin:40px 0px 0px 50px;height:135px;padding:10px;line-height:50px;text-align:right;font-size:12px;font-family:Arial;border-collapse:collapse;border-bottom:1px solid #d9d5be" id="my-orders-table">
+ 
+<thead style="font-size:12px;color:#444444;vertical-align:middle;border-bottom:2px solid #444444">
+            <tr>
+                <th>Sno.</th>
+                <th>Date</th>
+                <th>Status</th>
+		  <th>Last Error At</th>
+		  <th>Avg Up Time Week(%)</th>
+		  <th>Avg Load Time Day (ms)</th>
+             <!--   <th>Sample time</span></th>
+                <th>Status</th>
+                <th>&nbsp;</th>-->
+            </tr>
+        </thead>
+        <tbody>
+                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>1</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>2</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>3</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr></tbody>
+</table>
+ 
+    <script type="text/javascript">
+
+    // Load the Visualization API and the piechart package.
+    google.load('visualization', '1', {'packages':['corechart']});
+
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      // Create our data table out of JSON data loaded from server.
+      var data = new google.visualization.DataTable({"cols":[{"label":"Date","type":"string"},{"label":"Percentage","type":"number"}],"rows":[]});
+      var options = {
+           title: 'Date vs Percentage',
+          is3D: 'true',
+          width: 800,
+          height: 400,
+		   animation:{  duration: 1000, easing: 'out'}
+        };
+      // Instantiate and draw our chart, passing in some options.
+      // Do not forget to check your div ID
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+	 // setInterval(drawChart, 500 );
+    }
+    </script>
+<div id="chart_div"></div>
+
+<div class="dashcontainer">
+<h3 class="monitorsummary">Monitor Summary</h3>
+
+<table   style="width:54%;margin:40px 0px 0px 50px;height:135px;padding:10px;line-height:50px;text-align:right;font-size:12px;font-family:Arial;border-collapse:collapse;border-bottom:1px solid #d9d5be" id="my-orders-table">
+ 
+<thead style="font-size:12px;color:#444444;vertical-align:middle;border-bottom:2px solid #444444">
+            <tr>
+                <th>Sno.</th>
+                <th>Date</th>
+                <th>Status</th>
+		  <th>Last Error At</th>
+		  <th>Avg Up Time Week(%)</th>
+		  <th>Avg Load Time Day (ms)</th>
+             <!--   <th>Sample time</span></th>
+                <th>Status</th>
+                <th>&nbsp;</th>-->
+            </tr>
+        </thead>
+        <tbody>
+                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>1</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>2</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>3</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr></tbody>
+</table>
+ 
+    <script type="text/javascript">
+
+    // Load the Visualization API and the piechart package.
+    google.load('visualization', '1', {'packages':['corechart']});
+
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      // Create our data table out of JSON data loaded from server.
+      var data = new google.visualization.DataTable({"cols":[{"label":"Date","type":"string"},{"label":"Percentage","type":"number"}],"rows":[]});
+      var options = {
+           title: 'Date vs Percentage',
+          is3D: 'true',
+          width: 800,
+          height: 400,
+		   animation:{  duration: 1000, easing: 'out'}
+        };
+      // Instantiate and draw our chart, passing in some options.
+      // Do not forget to check your div ID
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+	 // setInterval(drawChart, 500 );
+    }
+    </script>
+<div id="chart_div"></div>
+
+<div class="dashcontainer">
+<h3 class="monitorsummary">Monitor Summary</h3>
+
+<table   style="width:54%;margin:40px 0px 0px 50px;height:135px;padding:10px;line-height:50px;text-align:right;font-size:12px;font-family:Arial;border-collapse:collapse;border-bottom:1px solid #d9d5be" id="my-orders-table">
+ 
+<thead style="font-size:12px;color:#444444;vertical-align:middle;border-bottom:2px solid #444444">
+            <tr>
+                <th>Sno.</th>
+                <th>Date</th>
+                <th>Status</th>
+		  <th>Last Error At</th>
+		  <th>Avg Up Time Week(%)</th>
+		  <th>Avg Load Time Day (ms)</th>
+             <!--   <th>Sample time</span></th>
+                <th>Status</th>
+                <th>&nbsp;</th>-->
+            </tr>
+        </thead>
+        <tbody>
+                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>1</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>2</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>3</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr></tbody>
+</table>
+ 
+    <script type="text/javascript">
+
+    // Load the Visualization API and the piechart package.
+    google.load('visualization', '1', {'packages':['corechart']});
+
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      // Create our data table out of JSON data loaded from server.
+      var data = new google.visualization.DataTable({"cols":[{"label":"Date","type":"string"},{"label":"Percentage","type":"number"}],"rows":[]});
+      var options = {
+           title: 'Date vs Percentage',
+          is3D: 'true',
+          width: 800,
+          height: 400,
+		   animation:{  duration: 1000, easing: 'out'}
+        };
+      // Instantiate and draw our chart, passing in some options.
+      // Do not forget to check your div ID
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+	 // setInterval(drawChart, 500 );
+    }
+    </script>
+<div id="chart_div"></div>
+
+<div class="dashcontainer">
+<h3 class="monitorsummary">Monitor Summary</h3>
+
+<table   style="width:54%;margin:40px 0px 0px 50px;height:135px;padding:10px;line-height:50px;text-align:right;font-size:12px;font-family:Arial;border-collapse:collapse;border-bottom:1px solid #d9d5be" id="my-orders-table">
+ 
+<thead style="font-size:12px;color:#444444;vertical-align:middle;border-bottom:2px solid #444444">
+            <tr>
+                <th>Sno.</th>
+                <th>Date</th>
+                <th>Status</th>
+		  <th>Last Error At</th>
+		  <th>Avg Up Time Week(%)</th>
+		  <th>Avg Load Time Day (ms)</th>
+             <!--   <th>Sample time</span></th>
+                <th>Status</th>
+                <th>&nbsp;</th>-->
+            </tr>
+        </thead>
+        <tbody>
+                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>1</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>2</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>3</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr></tbody>
+</table>
+ 
+    <script type="text/javascript">
+
+    // Load the Visualization API and the piechart package.
+    google.load('visualization', '1', {'packages':['corechart']});
+
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      // Create our data table out of JSON data loaded from server.
+      var data = new google.visualization.DataTable({"cols":[{"label":"Date","type":"string"},{"label":"Percentage","type":"number"}],"rows":[]});
+      var options = {
+           title: 'Date vs Percentage',
+          is3D: 'true',
+          width: 800,
+          height: 400,
+		   animation:{  duration: 1000, easing: 'out'}
+        };
+      // Instantiate and draw our chart, passing in some options.
+      // Do not forget to check your div ID
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+	 // setInterval(drawChart, 500 );
+    }
+    </script>
+<div id="chart_div"></div>
+
+<div class="dashcontainer">
+<h3 class="monitorsummary">Monitor Summary</h3>
+
+<table   style="width:54%;margin:40px 0px 0px 50px;height:135px;padding:10px;line-height:50px;text-align:right;font-size:12px;font-family:Arial;border-collapse:collapse;border-bottom:1px solid #d9d5be" id="my-orders-table">
+ 
+<thead style="font-size:12px;color:#444444;vertical-align:middle;border-bottom:2px solid #444444">
+            <tr>
+                <th>Sno.</th>
+                <th>Date</th>
+                <th>Status</th>
+		  <th>Last Error At</th>
+		  <th>Avg Up Time Week(%)</th>
+		  <th>Avg Load Time Day (ms)</th>
+             <!--   <th>Sample time</span></th>
+                <th>Status</th>
+                <th>&nbsp;</th>-->
+            </tr>
+        </thead>
+        <tbody>
+                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>1</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>2</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>3</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr></tbody>
+</table>
+ 
+    <script type="text/javascript">
+
+    // Load the Visualization API and the piechart package.
+    google.load('visualization', '1', {'packages':['corechart']});
+
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      // Create our data table out of JSON data loaded from server.
+      var data = new google.visualization.DataTable({"cols":[{"label":"Date","type":"string"},{"label":"Percentage","type":"number"}],"rows":[]});
+      var options = {
+           title: 'Date vs Percentage',
+          is3D: 'true',
+          width: 800,
+          height: 400,
+		   animation:{  duration: 1000, easing: 'out'}
+        };
+      // Instantiate and draw our chart, passing in some options.
+      // Do not forget to check your div ID
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+	 // setInterval(drawChart, 500 );
+    }
+    </script>
+<div id="chart_div"></div>
+
+<div class="dashcontainer">
+<h3 class="monitorsummary">Monitor Summary</h3>
+
+<table   style="width:54%;margin:40px 0px 0px 50px;height:135px;padding:10px;line-height:50px;text-align:right;font-size:12px;font-family:Arial;border-collapse:collapse;border-bottom:1px solid #d9d5be" id="my-orders-table">
+ 
+<thead style="font-size:12px;color:#444444;vertical-align:middle;border-bottom:2px solid #444444">
+            <tr>
+                <th>Sno.</th>
+                <th>Date</th>
+                <th>Status</th>
+		  <th>Last Error At</th>
+		  <th>Avg Up Time Week(%)</th>
+		  <th>Avg Load Time Day (ms)</th>
+             <!--   <th>Sample time</span></th>
+                <th>Status</th>
+                <th>&nbsp;</th>-->
+            </tr>
+        </thead>
+        <tbody>
+                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>1</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>2</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>3</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr></tbody>
+</table>
+ 
+    <script type="text/javascript">
+
+    // Load the Visualization API and the piechart package.
+    google.load('visualization', '1', {'packages':['corechart']});
+
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      // Create our data table out of JSON data loaded from server.
+      var data = new google.visualization.DataTable({"cols":[{"label":"Date","type":"string"},{"label":"Percentage","type":"number"}],"rows":[]});
+      var options = {
+           title: 'Date vs Percentage',
+          is3D: 'true',
+          width: 800,
+          height: 400,
+		   animation:{  duration: 1000, easing: 'out'}
+        };
+      // Instantiate and draw our chart, passing in some options.
+      // Do not forget to check your div ID
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+	 // setInterval(drawChart, 500 );
+    }
+    </script>
+<div id="chart_div"></div>
+
+<div class="dashcontainer">
+<h3 class="monitorsummary">Monitor Summary</h3>
+
+<table   style="width:54%;margin:40px 0px 0px 50px;height:135px;padding:10px;line-height:50px;text-align:right;font-size:12px;font-family:Arial;border-collapse:collapse;border-bottom:1px solid #d9d5be" id="my-orders-table">
+ 
+<thead style="font-size:12px;color:#444444;vertical-align:middle;border-bottom:2px solid #444444">
+            <tr>
+                <th>Sno.</th>
+                <th>Date</th>
+                <th>Status</th>
+		  <th>Last Error At</th>
+		  <th>Avg Up Time Week(%)</th>
+		  <th>Avg Load Time Day (ms)</th>
+             <!--   <th>Sample time</span></th>
+                <th>Status</th>
+                <th>&nbsp;</th>-->
+            </tr>
+        </thead>
+        <tbody>
+                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>1</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>2</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>3</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr></tbody>
+</table>
+ 
+    <script type="text/javascript">
+
+    // Load the Visualization API and the piechart package.
+    google.load('visualization', '1', {'packages':['corechart']});
+
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      // Create our data table out of JSON data loaded from server.
+      var data = new google.visualization.DataTable({"cols":[{"label":"Date","type":"string"},{"label":"Percentage","type":"number"}],"rows":[]});
+      var options = {
+           title: 'Date vs Percentage',
+          is3D: 'true',
+          width: 800,
+          height: 400,
+		   animation:{  duration: 1000, easing: 'out'}
+        };
+      // Instantiate and draw our chart, passing in some options.
+      // Do not forget to check your div ID
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+	 // setInterval(drawChart, 500 );
+    }
+    </script>
+<div id="chart_div"></div>
+
+<div class="dashcontainer">
+<h3 class="monitorsummary">Monitor Summary</h3>
+
+<table   style="width:54%;margin:40px 0px 0px 50px;height:135px;padding:10px;line-height:50px;text-align:right;font-size:12px;font-family:Arial;border-collapse:collapse;border-bottom:1px solid #d9d5be" id="my-orders-table">
+ 
+<thead style="font-size:12px;color:#444444;vertical-align:middle;border-bottom:2px solid #444444">
+            <tr>
+                <th>Sno.</th>
+                <th>Date</th>
+                <th>Status</th>
+		  <th>Last Error At</th>
+		  <th>Avg Up Time Week(%)</th>
+		  <th>Avg Load Time Day (ms)</th>
+             <!--   <th>Sample time</span></th>
+                <th>Status</th>
+                <th>&nbsp;</th>-->
+            </tr>
+        </thead>
+        <tbody>
+                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>1</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>2</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>3</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr></tbody>
+</table>
+ 
+    <script type="text/javascript">
+
+    // Load the Visualization API and the piechart package.
+    google.load('visualization', '1', {'packages':['corechart']});
+
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      // Create our data table out of JSON data loaded from server.
+      var data = new google.visualization.DataTable({"cols":[{"label":"Date","type":"string"},{"label":"Percentage","type":"number"}],"rows":[]});
+      var options = {
+           title: 'Date vs Percentage',
+          is3D: 'true',
+          width: 800,
+          height: 400,
+		   animation:{  duration: 1000, easing: 'out'}
+        };
+      // Instantiate and draw our chart, passing in some options.
+      // Do not forget to check your div ID
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+	 // setInterval(drawChart, 500 );
+    }
+    </script>
+<div id="chart_div"></div>
+
+<div class="dashcontainer">
+<h3 class="monitorsummary">Monitor Summary</h3>
+
+<table   style="width:54%;margin:40px 0px 0px 50px;height:135px;padding:10px;line-height:50px;text-align:right;font-size:12px;font-family:Arial;border-collapse:collapse;border-bottom:1px solid #d9d5be" id="my-orders-table">
+ 
+<thead style="font-size:12px;color:#444444;vertical-align:middle;border-bottom:2px solid #444444">
+            <tr>
+                <th>Sno.</th>
+                <th>Date</th>
+                <th>Status</th>
+		  <th>Last Error At</th>
+		  <th>Avg Up Time Week(%)</th>
+		  <th>Avg Load Time Day (ms)</th>
+             <!--   <th>Sample time</span></th>
+                <th>Status</th>
+                <th>&nbsp;</th>-->
+            </tr>
+        </thead>
+        <tbody>
+                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>1</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>2</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>3</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr></tbody>
+</table>
+ 
+    <script type="text/javascript">
+
+    // Load the Visualization API and the piechart package.
+    google.load('visualization', '1', {'packages':['corechart']});
+
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      // Create our data table out of JSON data loaded from server.
+      var data = new google.visualization.DataTable({"cols":[{"label":"Date","type":"string"},{"label":"Percentage","type":"number"}],"rows":[]});
+      var options = {
+           title: 'Date vs Percentage',
+          is3D: 'true',
+          width: 800,
+          height: 400,
+		   animation:{  duration: 1000, easing: 'out'}
+        };
+      // Instantiate and draw our chart, passing in some options.
+      // Do not forget to check your div ID
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+	 // setInterval(drawChart, 500 );
+    }
+    </script>
+<div id="chart_div"></div>
+
+<div class="dashcontainer">
+<h3 class="monitorsummary">Monitor Summary</h3>
+
+<table   style="width:54%;margin:40px 0px 0px 50px;height:135px;padding:10px;line-height:50px;text-align:right;font-size:12px;font-family:Arial;border-collapse:collapse;border-bottom:1px solid #d9d5be" id="my-orders-table">
+ 
+<thead style="font-size:12px;color:#444444;vertical-align:middle;border-bottom:2px solid #444444">
+            <tr>
+                <th>Sno.</th>
+                <th>Date</th>
+                <th>Status</th>
+		  <th>Last Error At</th>
+		  <th>Avg Up Time Week(%)</th>
+		  <th>Avg Load Time Day (ms)</th>
+             <!--   <th>Sample time</span></th>
+                <th>Status</th>
+                <th>&nbsp;</th>-->
+            </tr>
+        </thead>
+        <tbody>
+                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>1</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>2</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr>                           <tr style="border-bottom:1px solid #d9d5be">
+                    <td>3</td>
+                    <td></td>
+                  <td><div class="data-status off"></div>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>                 </td>
+                  <td>
+
+                 </td>
+</tr></tbody>
+</table>
+</strong></p>
+
+</div>
+
+   <p>
+From your My Account Dashboard you have the ability to view a snapshot of your recent account activity and update your account information. Select a link below to view or edit information.</p>
+    <div id="chart_div"></div>
+
+</div>
+        <div class="box-account box-info">
+        <div class="box-head">
+            <h2>Account Information</h2>
+        </div>
+                        <div class="col1-set">
+    <div class="col-1">
+        <div class="box">
+            <div class="box-title">
+                <h3>Contact Information</h3>
+                              <a href="kunalmotu.com"> kunalmotu.com</a><br />
+                <a href="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/index.php/customer/account/edit/">Edit</a>
+            </div>
+            <div class="box-content">
+                <p>
+                    kunal bhandari<br />
+                    kunal.bhandari6@gmail.com<br />
+                    <a href="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/index.php/customer/account/edit/changepass/1/">Change Password</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+            </div>
+        </div></div>                </div>
+                <div class="col-left sidebar"><!-- <div class="block block-account">
+    <div class="block-title">
+        <strong><span>My Account</span></strong>
+    </div> 
+    <div class="block-content">
+        <ul>
+                                                                                                    <li class="current"><strong></strong></li>
+                s                    <li><a href=""></a></li>
+                                    </ul>
+    </div>
+</div> -->
+<!--<div class="block block-cart">
+        <div class="block-title">
+        <strong><span>My Cart</span></strong>
+    </div>
+    <div class="block-content">
+                        <p class="empty">You have no items in your shopping cart.</p>
+        </div>
+</div> -->
+<!--<div class="block block-list block-compare">
+    <div class="block-title">
+        <strong><span>Compare Products                    </span></strong>
+    </div>
+    <div class="block-content">
+            <p class="empty">You have no items to compare.</p>
+        </div>
+</div> -->
+<!--<div class="block block-reorder">
+    <div class="block-title">
+        <strong><span>My Orders</span></strong>
+    </div>
+    <form method="post" action="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/index.php/checkout/cart/addgroup/" id="reorder-validate-detail">
+        <div class="block-content">
+            <p class="block-subtitle">Last Ordered Items</p>
+            <ol id="cart-sidebar-reorder">
+                                        <li class="item">
+                                                                    <input type="checkbox" name="order_items[]" id="reorder-item-28" value="28" title="Add to Cart" class="checkbox validate-one-required-by-name" />
+                        <script type="text/javascript">
+                        //<![CDATA[
+                            $('reorder-item-28').advaiceContainer = 'cart-sidebar-reorder-advice-container';
+                        //]]>
+                        </script>
+                                        <p class="product-name"><a href="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/index.php/tsd.html">Web site monitoring application.</a></p>
+                </li>
+                        </ol>
+            <script type="text/javascript">decorateList('cart-sidebar-reorder')</script>
+            <div id="cart-sidebar-reorder-advice-container"></div>
+            <div class="actions">
+                                    <button type="submit" title="Add to Cart" class="button btn-cart"><span><span>Add to Cart</span></span></button>
+                                <a href="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/index.php/customer/account/">View All</a>
+            </div>
+        </div>
+    </form>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+    var reorderFormDetail = new VarienForm('reorder-validate-detail');
+//]]>
+</script> -->
+</div>
+            </div>
+        </div>
+                <div class="footer-container">
+    <div class="footer">
+    <style type="text/css">
+ul.socials {
+	float:right;
+	margin-top:5px;
+	margin-right:20px;
+	position:absolute;
+	margin-left:180px;
+}
+.facebook{
+background: url(http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/images/ui/socials.png) -129px 0px no-repeat;
+width: 43px;
+height: 43px;
+padding:20px;
+transition: all 0.3s linear 0s;
+-webkit-font-smoothing: antialiased;
+-o-transition: all 0.3s linear 0s;
+-moz-transition: all 0.3s linear 0s;
+-webkit-transition: all 0.3s linear 0s;
+
+}
+.facebook:hover{
+background: url(http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/images/ui/socials.png) -90px 0px no-repeat;
+width: 43px;
+height: 43px;
+padding:20px;
+
+}
+
+.twitter{
+background: url(http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/images/ui/socials.png) -168px 0px no-repeat;
+width: 43px;
+height: 43px;
+padding:20px;
+transition: all 0.3s linear 0s;
+-webkit-font-smoothing: antialiased;
+-o-transition: all 0.3s linear 0s;
+-moz-transition: all 0.3s linear 0s;
+-webkit-transition: all 0.3s linear 0s;
+}
+.twitter:hover{
+background: url(http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/images/ui/socials.png) -209px 0px no-repeat;
+width: 43px;
+height: 43px;
+padding:20px;
+
+}
+
+.youtube{
+background: url(http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/images/ui/socials.png) -10px 0px no-repeat;
+width: 43px;
+height: 43px;
+padding:20px;
+transition: all 0.3s linear 0s;
+-webkit-font-smoothing: antialiased;
+-o-transition: all 0.3s linear 0s;
+-moz-transition: all 0.3s linear 0s;
+-webkit-transition: all 0.3s linear 0s;
+}.youtube:hover{
+background: url(http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/images/ui/socials.png) -48px 0px no-repeat;
+width: 43px;
+height: 43px;
+padding:20px;
+
+}
+
+.linkedin
+{
+background: url(http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/images/ui/socials.png) -252px 0px no-repeat;
+width: 43px;
+height: 43px;
+padding:20px;
+transition: all 0.3s linear 0s;
+-webkit-font-smoothing: antialiased;
+-o-transition: all 0.3s linear 0s;
+-moz-transition: all 0.3s linear 0s;
+-webkit-transition: all 0.3s linear 0s;
+}
+.linkedin:hover{
+background: url(http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/images/ui/socials.png) -301px 0px no-repeat;
+width: 43px;
+height: 43px;
+padding:20px;
+
+}
+
+ul.footerlinks{
+		margin:0 auto;
+		width:700px;
+	text-align:center;
+	position:relative;
+	list-style:none;
+}
+li
+{
+	display:inline;
+}
+ol
+{
+	display:inline;
+}
+/*li 
+{
+	display:inline;
+	list-style:none;
+}*/
+
+</style>
+
+    <p>&nbsp;</p>
+<ul class="footerlinks">
+<li><a href="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/index.php/aboutus">About Us</a></li>
+<!--<li><a title="howitworks" href="howitworks" target="_self">How it works?</a></li>-->
+<li><a title="overview" href="overview" target="_self">Overview</a></li>
+<li><a title="careers" href="careers" target="_self">Careers</a></li>
+<li><a title="investors" href="investors" target="_self">Investors</a></li>
+<li><a title="sitemap" href="sitemap" target="_self">Sitemap</a></li>
+<li><a title="support" href="contactus" target="_self">Contact Us</a></li>
+</ul> 
+    <ul class="socials">
+      <a href="http://facebook.com/testsitedaily"><ol class="facebook"></ol></a>
+     <a href="http://twitter.com/testsitedaily"> <ol class="twitter"></ol></a>
+      <a href="http://youtube.com/testsitedaily"><ol class="youtube"></ol></a>
+      <a href="http://linkedin.com/testsitedaily"><ol class="linkedin"></ol></a>
+    </ul>
+    <div class="clear"></div>
+    <div class="contacts">
+        <div class="f-left"></div>
+    <!--    <img class="payments" src="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/skin/frontend/default/f001/images/payments.gif" alt="MasterCard, Maestro, Visa, AmericanExpress"/> --!>
+    </div>
+    <br />
+    <p class="legality">
+        &copy; 2013 Maetree LLC. All Rights Reserved.        <!-- This theme is avalable udner Creative Commons License http://creativecommons.org/licenses/by/3.0/    Removing links to is similarly prohibited. <a href="http://templates-master.com" title="Magento Themes">Magento Themes</a> by <a href="http://templates-master.com" title="Magento Themes">Templates Master</a> Removing links to is similarly prohibited.  -->
+            </p>
+    <div class="clear"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/skin/frontend/default/f001/js/productInfo.js"></script>
+<script type="text/javascript">
+    Event.observe(window, 'load', function() {
+        new ProductInfo('.ajax', 'p.product-image a', {
+            'loader': "http://ec2-54-214-146-9.us-west-2.compute.amazonaws.com/magento/skin/frontend/default/f001/images/ajax_loader.gif",
+            'loadingMessage': "Loading"
+        });
+    });
+</script>
+            </div>
+</div>
+</body>
+</html>
